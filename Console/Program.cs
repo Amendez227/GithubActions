@@ -87,8 +87,8 @@ public class Program
 	public static double Power(string x, string y)
 	{
 
-		var baseValue = double.Parse(x);
-		var exponent  = double.Parse(y);
+		double baseValue = double.Parse(x);
+		double exponent  = double.Parse(y);
 
 		return Math.Pow(baseValue, exponent);
 
