@@ -86,6 +86,10 @@ public class Program
 	// Implement this method following a similar pattern as above
 	public static double Power(string x, string y)
 	{
-		return 0.0;
+		var baseValue = double.Parse(x);
+		var exponent  = double.Parse(y);
+
+		return Math.Pow(baseValue, exponent);
+
 	}
 }
